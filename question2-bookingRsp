@@ -1,0 +1,30 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <universal:AirCreateReservationRsp TraceId="b32254f4-c509-43e4-ac59-ba15ec076ad7" TransactionId="A99864980A076477DBB6D6B37721588B" ResponseTime="17609" xmlns:universal="http://www.travelport.com/schema/universal_v42_0" xmlns:common_v42_0="http://www.travelport.com/schema/common_v42_0" xmlns:air="http://www.travelport.com/schema/air_v42_0">
+            <common_v42_0:ResponseMessage Code="3301" Type="Warning" ProviderCode="1G">Segment sync error. Flight times returned from the carrier do not match the flight times requested.</common_v42_0:ResponseMessage>
+            <air:AirSolutionChangedInfo ReasonCode="Schedule">
+                <air:AirPricingSolution Key="uIgDb63R2BKAMQLdBAAAAA==">
+                    <air:AirSegment Key="uIgDb63R2BKAlTLdBAAAAA==" Group="0" Carrier="AF" CabinClass="Economy" FlightNumber="117" ProviderCode="1G" Origin="PVG" Destination="CDG" DepartureTime="2017-11-21T11:00:00.000+08:00" ArrivalTime="2017-11-21T16:40:00.000+01:00" TravelTime="760" ClassOfService="N" ETicketability="Yes" Equipment="772" Status="HS" GuaranteedPaymentCarrier="No" OptionalServicesIndicator="false">
+                        <air:FlightDetails Key="uIgDb63R2BKAwTLdBAAAAA==" Origin="PVG" Destination="CDG" DepartureTime="2017-11-21T11:00:00.000+08:00" ArrivalTime="2017-11-21T16:40:00.000+01:00" OriginTerminal="1" DestinationTerminal="2E" AutomatedCheckin="false"/>
+                        <air:Connection Duration="70"/>
+                    </air:AirSegment>
+                    <air:AirSegment Key="uIgDb63R2BKAnTLdBAAAAA==" Group="0" Carrier="AF" CabinClass="Economy" FlightNumber="1118" ProviderCode="1G" Origin="CDG" Destination="FRA" DepartureTime="2017-11-21T17:50:00.000+01:00" ArrivalTime="2017-11-21T19:15:00.000+01:00" TravelTime="85" ClassOfService="L" ETicketability="Yes" Equipment="AR8" Status="HS" GuaranteedPaymentCarrier="No" OptionalServicesIndicator="false">
+                        <common_v42_0:SegmentRemark Key="uIgDb63R2BKApTLdBAAAAA==">CITYJET</common_v42_0:SegmentRemark>
+                        <air:CodeshareInfo OperatingCarrier="WX"/>
+                        <air:FlightDetails Key="uIgDb63R2BKAoTLdBAAAAA==" Origin="CDG" Destination="FRA" DepartureTime="2017-11-21T17:50:00.000+01:00" ArrivalTime="2017-11-21T19:15:00.000+01:00" OriginTerminal="2G" DestinationTerminal="2" AutomatedCheckin="false"/>
+                    </air:AirSegment>
+                    <air:AirSegment Key="uIgDb63R2BKAqTLdBAAAAA==" Group="1" Carrier="CZ" CabinClass="Economy" FlightNumber="7626" ProviderCode="1G" Origin="FRA" Destination="AMS" DepartureTime="2017-11-29T10:15:00.000+01:00" ArrivalTime="2017-11-29T11:35:00.000+01:00" TravelTime="80" ClassOfService="V" ETicketability="Yes" Equipment="E90" Status="HS" GuaranteedPaymentCarrier="No" OptionalServicesIndicator="false">
+                        <common_v42_0:SegmentRemark Key="uIgDb63R2BKAsTLdBAAAAA==">KLM ROYAL DUTCH AIRL</common_v42_0:SegmentRemark>
+                        <air:CodeshareInfo OperatingCarrier="KL"/>
+                        <air:FlightDetails Key="uIgDb63R2BKArTLdBAAAAA==" Origin="FRA" Destination="AMS" DepartureTime="2017-11-29T10:15:00.000+01:00" ArrivalTime="2017-11-29T11:35:00.000+01:00" OriginTerminal="2" AutomatedCheckin="false"/>
+                    </air:AirSegment>
+                    <air:AirSegment Key="uIgDb63R2BKAtTLdBAAAAA==" Group="2" Carrier="CZ" CabinClass="Economy" FlightNumber="770" ProviderCode="1G" Origin="AMS" Destination="PVG" DepartureTime="2017-11-29T17:10:00.000+01:00" ArrivalTime="2017-11-30T10:45:00.000+08:00" TravelTime="635" ClassOfService="V" ETicketability="Yes" Equipment="772" Status="HS" GuaranteedPaymentCarrier="No" OptionalServicesIndicator="false">
+                        <common_v42_0:SegmentRemark Key="uIgDb63R2BKAvTLdBAAAAA==">KLM ROYAL DUTCH AIRL</common_v42_0:SegmentRemark>
+                        <air:CodeshareInfo OperatingCarrier="KL"/>
+                        <air:FlightDetails Key="uIgDb63R2BKAuTLdBAAAAA==" Origin="AMS" Destination="PVG" DepartureTime="2017-11-29T17:10:00.000+01:00" ArrivalTime="2017-11-30T10:45:00.000+08:00" DestinationTerminal="1" AutomatedCheckin="false"/>
+                    </air:AirSegment>
+                </air:AirPricingSolution>
+            </air:AirSolutionChangedInfo>
+        </universal:AirCreateReservationRsp>
+    </SOAP:Body>
+</SOAP:Envelope>

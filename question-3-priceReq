@@ -1,0 +1,42 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:AirPriceReq xmlns="http://www.travelport.com/schema/common_v42_0" xmlns:ns2="http://www.travelport.com/schema/air_v42_0" xmlns:ns3="http://www.travelport.com/schema/cruise_v42_0" xmlns:ns4="http://www.travelport.com/schema/rail_v42_0" xmlns:ns5="http://www.travelport.com/schema/vehicle_v42_0" xmlns:ns6="http://www.travelport.com/schema/passive_v42_0" xmlns:ns7="http://www.travelport.com/schema/universal_v42_0" xmlns:ns8="http://www.travelport.com/schema/hotel_v42_0" xmlns:ns9="http://www.travelport.com/soa/common/security/SessionContext_v1" TraceId="6a48e402-c380-4ff7-bb5b-690bc5e5fff1" TargetBranch="P7085271">
+         <BillingPointOfSaleInfo OriginApplication="UAPI"/>
+         <ns2:AirItinerary>
+            <ns2:AirSegment Group="0" Carrier="CZ" FlightNumber="779" ProviderCode="1G" Origin="PVG" Destination="AMS" DepartureTime="2017-11-25T00:15:00.000+08:00" ArrivalTime="2017-11-25T05:20:00.000+01:00" Key="Xbv+a67Q2BKAaSNpCAAAAA=="/>
+            <ns2:AirSegment Group="0" Carrier="CZ" FlightNumber="7643" ProviderCode="1G" Origin="AMS" Destination="FRA" DepartureTime="2017-11-25T08:15:00.000+01:00" ArrivalTime="2017-11-25T09:30:00.000+01:00" Key="Xbv+a67Q2BKAcSNpCAAAAA=="/>
+            <ns2:AirSegment Group="1" Carrier="CZ" FlightNumber="7626" ProviderCode="1G" Origin="FRA" Destination="AMS" DepartureTime="2017-12-03T10:15:00.000+01:00" ArrivalTime="2017-12-03T11:35:00.000+01:00" Key="Xbv+a67Q2BKAkSNpCAAAAA=="/>
+            <ns2:AirSegment Group="1" Carrier="CZ" FlightNumber="770" ProviderCode="1G" Origin="AMS" Destination="PVG" DepartureTime="2017-12-03T17:15:00.000+01:00" ArrivalTime="2017-12-04T10:50:00.000+08:00" Key="Xbv+a67Q2BKAmSNpCAAAAA=="/>
+         </ns2:AirItinerary>
+         <ns2:AirPricingModifiers InventoryRequestType="DirectAccess"/>
+         <SearchPassenger Key="LuLW_DUmRZiEr86on77eHg==" Code="ADT" BookingTravelerRef="LuLW_DUmRZiEr86on77eHg=="/>
+         <SearchPassenger Key="O0SpBCiWTSe7dbtJEO7TPQ==" Code="ADT" BookingTravelerRef="O0SpBCiWTSe7dbtJEO7TPQ=="/>
+         <SearchPassenger Key="DgxYgkttTPOPsTXtWIPmtg==" Code="CNN" Age="10" BookingTravelerRef="DgxYgkttTPOPsTXtWIPmtg=="/>
+         <SearchPassenger Key="e0F1ls-hQRi9wlC-RJ1AUQ==" Code="CNN" Age="6" BookingTravelerRef="e0F1ls-hQRi9wlC-RJ1AUQ=="/>
+         <SearchPassenger Key="kemtu46kT3qId08fzchCzw==" Code="CNN" Age="1" BookingTravelerRef="kemtu46kT3qId08fzchCzw=="/>
+         <SearchPassenger Key="ucip1ed3TE-oTDiMMFF0jg==" Code="CNN" Age="0" BookingTravelerRef="ucip1ed3TE-oTDiMMFF0jg=="/>
+         <ns2:AirPricingCommand>
+            <ns2:AirSegmentPricingModifiers AirSegmentRef="Xbv+a67Q2BKAaSNpCAAAAA==" FareBasisCode="V2JNCQE">
+               <ns2:PermittedBookingCodes>
+                  <ns2:BookingCode Code="V"/>
+               </ns2:PermittedBookingCodes>
+            </ns2:AirSegmentPricingModifiers>
+            <ns2:AirSegmentPricingModifiers AirSegmentRef="Xbv+a67Q2BKAcSNpCAAAAA==" FareBasisCode="V2JNCQE">
+               <ns2:PermittedBookingCodes>
+                  <ns2:BookingCode Code="V"/>
+               </ns2:PermittedBookingCodes>
+            </ns2:AirSegmentPricingModifiers>
+            <ns2:AirSegmentPricingModifiers AirSegmentRef="Xbv+a67Q2BKAkSNpCAAAAA==" FareBasisCode="V2JNCQE">
+               <ns2:PermittedBookingCodes>
+                  <ns2:BookingCode Code="V"/>
+               </ns2:PermittedBookingCodes>
+            </ns2:AirSegmentPricingModifiers>
+            <ns2:AirSegmentPricingModifiers AirSegmentRef="Xbv+a67Q2BKAmSNpCAAAAA==" FareBasisCode="V2JNCQE">
+               <ns2:PermittedBookingCodes>
+                  <ns2:BookingCode Code="V"/>
+               </ns2:PermittedBookingCodes>
+            </ns2:AirSegmentPricingModifiers>
+         </ns2:AirPricingCommand>
+      </ns2:AirPriceReq>
+   </soap:Body>
+</soap:Envelope>

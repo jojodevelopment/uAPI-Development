@@ -1,0 +1,696 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP:Body>
+      <air:AirPriceRsp TraceId="7f680af1-f8e6-427d-8536-7be2e6269102" TransactionId="C8A4E35A0A07643C179138B971CF8F2D" ResponseTime="1182" xmlns:air="http://www.travelport.com/schema/air_v42_0" xmlns:common_v42_0="http://www.travelport.com/schema/common_v42_0">
+         <common_v42_0:ResponseMessage Code="710401" Type="Warning" ProviderCode="1G">Taxes returned at the FareInfo level are for informational purposes only, and may differ from those returned at the Itinerary/Passenger Type levels.</common_v42_0:ResponseMessage>
+         <common_v42_0:ResponseMessage Code="4400" Type="Warning">No Merchandising optional services returned for Flight(s) [VX][1867]</common_v42_0:ResponseMessage>
+         <common_v42_0:ResponseMessage Code="4400" Type="Warning">No Merchandising optional services returned for Flight(s) [VX][1870]</common_v42_0:ResponseMessage>
+         <air:AirItinerary>
+            <air:AirSegment Key="MHsXG78Q2BKAvHBOAAAAAA==" Group="0" Carrier="VX" FlightNumber="1867" ProviderCode="1G" Origin="DEN" Destination="SFO" DepartureTime="2017-11-07T16:00:00.000-07:00" ArrivalTime="2017-11-07T17:46:00.000-08:00" FlightTime="166" TravelTime="166" Distance="954" ClassOfService="N" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+               <air:CodeshareInfo OperatingCarrier="VX">Virgin America Inc</air:CodeshareInfo>
+               <air:FlightDetails Key="MHsXG78Q2BKAwHBOAAAAAA==" Origin="DEN" Destination="SFO" DepartureTime="2017-11-07T16:00:00.000-07:00" ArrivalTime="2017-11-07T17:46:00.000-08:00" FlightTime="166" TravelTime="166" Distance="954"/>
+            </air:AirSegment>
+            <air:AirSegment Key="MHsXG78Q2BKAxHBOAAAAAA==" Group="1" Carrier="VX" FlightNumber="1870" ProviderCode="1G" Origin="SFO" Destination="DEN" DepartureTime="2017-12-07T19:25:00.000-08:00" ArrivalTime="2017-12-07T22:51:00.000-07:00" FlightTime="146" TravelTime="146" Distance="954" ClassOfService="S" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+               <air:CodeshareInfo OperatingCarrier="VX">Virgin America Inc</air:CodeshareInfo>
+               <air:FlightDetails Key="MHsXG78Q2BKAyHBOAAAAAA==" Origin="SFO" Destination="DEN" DepartureTime="2017-12-07T19:25:00.000-08:00" ArrivalTime="2017-12-07T22:51:00.000-07:00" FlightTime="146" TravelTime="146" Distance="954"/>
+            </air:AirSegment>
+         </air:AirItinerary>
+         <air:AirPriceResult>
+            <air:AirPricingSolution Key="MHsXG78Q2BKAzHBOAAAAAA==" TotalPrice="EUR591.16" BasePrice="USD539.52" ApproximateTotalPrice="EUR591.16" ApproximateBasePrice="EUR460.00" EquivalentBasePrice="EUR460.00" Taxes="EUR131.16" Fees="EUR0.00" ApproximateTaxes="EUR131.16" QuoteDate="2017-09-28">
+               <air:AirSegmentRef Key="MHsXG78Q2BKAvHBOAAAAAA=="/>
+               <air:AirSegmentRef Key="MHsXG78Q2BKAxHBOAAAAAA=="/>
+               <air:AirPricingInfo Key="MHsXG78Q2BKA+HBOAAAAAA==" TotalPrice="EUR147.79" BasePrice="USD134.88" ApproximateTotalPrice="EUR147.79" ApproximateBasePrice="EUR115.00" EquivalentBasePrice="EUR115.00" ApproximateTaxes="EUR32.79" Taxes="EUR32.79" LatestTicketingTime="2017-09-29T23:59:00.000+02:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="HR" ProviderCode="1G">
+                  <air:FareInfo Key="MHsXG78Q2BKADIBOAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="ADT" Origin="DEN" Destination="SFO" EffectiveDate="2017-09-28T15:20:00.000+02:00" DepartureDate="2017-11-07" Amount="EUR51.00" NotValidBefore="2017-11-07" NotValidAfter="2017-11-07" TaxAmount="EUR15.89">
+                     <common_v42_0:Endorsement Value="NONREF FEES APPLY"/>
+                     <air:FareRuleKey FareInfoRef="MHsXG78Q2BKADIBOAAAAAA==" ProviderCode="1G">6UUVoSldxwjtWtKvUE8DeMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7cH0ES5nMFFx/k6/AgZN/SrwiU/UnhVdm513MqkmC5DTM5nIrfyPpTm24ErYDaIm3ebkVXfCfK5Yer/bRGkSYBehf6E18cRejGVqfCTByZWBzqxSaLEtyONYO9FlwB7O8vqNbjwzJx7ogtvCItYneVBEGBAeHcczpsmmKpPghyhp0ACA4xcw3/+xJomFHX2IZOF/oTXxxF6Mf/9EWDAZDuNHZNO0IOqY3aUuA32Ku4i9RPnJ0Add3NevEe9U/59nTMh0pKIsbBXl1GGRnKRzlZM/XJICOIRe0l8XkOI3g4GoW+QKPIWaRvqly5qxZ3qLwOXLmrFneovA5cuasWd6i8D5W4bRuwrrPA=</air:FareRuleKey>
+                     <air:FareRuleFailureInfo>
+                        <air:Reason>FareUsageFailure</air:Reason>
+                     </air:FareRuleFailureInfo>
+                  </air:FareInfo>
+                  <air:FareInfo Key="MHsXG78Q2BKAFIBOAAAAAA==" FareBasis="SVUVN5" PassengerTypeCode="ADT" Origin="SFO" Destination="DEN" EffectiveDate="2017-09-28T15:20:00.000+02:00" DepartureDate="2017-12-07" Amount="EUR64.00" NotValidBefore="2017-12-07" NotValidAfter="2017-12-07" TaxAmount="EUR16.90">
+                     <common_v42_0:Endorsement Value="NONREF FEES APPLY"/>
+                     <air:FareRuleKey FareInfoRef="MHsXG78Q2BKAFIBOAAAAAA==" ProviderCode="1G">6UUVoSldxwjtWtKvUE8DeMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7eUHcuWlOZd4WmwQZP5jcHcjg0M6xXdtgJ13MqkmC5DTP66ViCnI5pcJ6o78aXldVKF/oTXxxF6MWLgFn3B9sPdfoLT9JoAKrMoW3UNpGWfoomirW+idf7DePzwi1ZDHGjg2BMJ0qOmdYB1xjSbRrjKfAC/VVJ//0O0ywdvuGQJyadMf3cFVpeHZKCiBJRQPpRbJzSomMiXDmtA+czAxiLh4mpIyW8IVx+x+Kct6JHbVcTqAAcrhngGYAmTv3ctxKI43dyuKKCnXr3fl8Dk6LLnLjXBXklfpzOUZQ/VEq2A6zyxauAs+veBv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfKAxevs8wf8A=</air:FareRuleKey>
+                     <air:FareRuleFailureInfo>
+                        <air:Reason>FareUsageFailure</air:Reason>
+                     </air:FareRuleFailureInfo>
+                  </air:FareInfo>
+                  <air:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKADIBOAAAAAA==" SegmentRef="MHsXG78Q2BKAvHBOAAAAAA==" HostTokenRef="MHsXG78Q2BKA0HBOAAAAAA=="/>
+                  <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKAFIBOAAAAAA==" SegmentRef="MHsXG78Q2BKAxHBOAAAAAA==" HostTokenRef="MHsXG78Q2BKA1HBOAAAAAA=="/>
+                  <air:TaxInfo Category="AY" Amount="EUR9.52" Key="MHsXG78Q2BKA/HBOAAAAAA=="/>
+                  <air:TaxInfo Category="US" Amount="EUR8.63" Key="MHsXG78Q2BKAAIBOAAAAAA=="/>
+                  <air:TaxInfo Category="XF" Amount="EUR7.66" Key="MHsXG78Q2BKABIBOAAAAAA==">
+                     <common_v42_0:TaxDetail Amount="USD4.50" OriginAirport="DEN"/>
+                     <common_v42_0:TaxDetail Amount="USD4.50" OriginAirport="SFO"/>
+                  </air:TaxInfo>
+                  <air:TaxInfo Category="ZP" Amount="EUR6.98" Key="MHsXG78Q2BKACIBOAAAAAA==">
+                     <common_v42_0:TaxDetail Amount="USD4.10" OriginAirport="DEN"/>
+                     <common_v42_0:TaxDetail Amount="USD4.10" OriginAirport="SFO"/>
+                  </air:TaxInfo>
+                  <air:FareCalc>DEN VX SFO 59.53NVVXVN5 VX DEN 75.35SVUVN5 USD134.88END</air:FareCalc>
+                  <air:PassengerType Code="ADT"/>
+                  <air:PassengerType Code="ADT"/>
+                  <air:BaggageAllowances>
+                     <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DEN" Destination="SFO" Carrier="VX">
+                        <air:URLInfo>
+                           <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSVX.BAGG</air:URL>
+                        </air:URLInfo>
+                        <air:TextInfo>
+                           <air:Text>0P</air:Text>
+                           <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                        </air:TextInfo>
+                        <air:BagDetails ApplicableBags="1stChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                        <air:BagDetails ApplicableBags="2ndChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                     </air:BaggageAllowanceInfo>
+                     <air:BaggageAllowanceInfo TravelerType="ADT" Origin="SFO" Destination="DEN" Carrier="VX">
+                        <air:URLInfo>
+                           <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSVX.BAGG</air:URL>
+                        </air:URLInfo>
+                        <air:TextInfo>
+                           <air:Text>0P</air:Text>
+                           <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                        </air:TextInfo>
+                        <air:BagDetails ApplicableBags="1stChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                        <air:BagDetails ApplicableBags="2ndChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                     </air:BaggageAllowanceInfo>
+                     <air:CarryOnAllowanceInfo Origin="DEN" Destination="SFO" Carrier="VX">
+                        <air:TextInfo>
+                           <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="3" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                     </air:CarryOnAllowanceInfo>
+                     <air:CarryOnAllowanceInfo Origin="SFO" Destination="DEN" Carrier="VX">
+                        <air:TextInfo>
+                           <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="3" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                     </air:CarryOnAllowanceInfo>
+                  </air:BaggageAllowances>
+               </air:AirPricingInfo>
+               <air:AirPricingInfo Key="MHsXG78Q2BKAJIBOAAAAAA==" TotalPrice="EUR147.79" BasePrice="USD134.88" ApproximateTotalPrice="EUR147.79" ApproximateBasePrice="EUR115.00" EquivalentBasePrice="EUR115.00" ApproximateTaxes="EUR32.79" Taxes="EUR32.79" LatestTicketingTime="2017-09-29T23:59:00.000+02:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="HR" ProviderCode="1G">
+                  <air:FareInfo Key="MHsXG78Q2BKAOIBOAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="ADT" Origin="DEN" Destination="SFO" EffectiveDate="2017-09-28T15:20:00.000+02:00" DepartureDate="2017-11-07" Amount="EUR51.00" NotValidBefore="2017-11-07" NotValidAfter="2017-11-07" TaxAmount="EUR15.89">
+                     <common_v42_0:Endorsement Value="NONREF FEES APPLY"/>
+                     <air:FareRuleKey FareInfoRef="MHsXG78Q2BKAOIBOAAAAAA==" ProviderCode="1G">6UUVoSldxwjtWtKvUE8DeMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7cH0ES5nMFFx/k6/AgZN/SrwiU/UnhVdm513MqkmC5DTM5nIrfyPpTm24ErYDaIm3ebkVXfCfK5Yer/bRGkSYBehf6E18cRejETbLEjwJ+RtjqxSaLEtyONYO9FlwB7O8vqNbjwzJx7ogtvCItYneVBEGBAeHcczpsmmKpPghyhp8+L+p0xsjgGxJomFHX2IZOF/oTXxxF6Mf/9EWDAZDuNHZNO0IOqY3aUuA32Ku4i9RPnJ0Add3NevEe9U/59nTMh0pKIsbBXl1GGRnKRzlZM/XJICOIRe0l8XkOI3g4GoW+QKPIWaRvqly5qxZ3qLwOXLmrFneovA5cuasWd6i8D5W4bRuwrrPA=</air:FareRuleKey>
+                     <air:FareRuleFailureInfo>
+                        <air:Reason>FareUsageFailure</air:Reason>
+                     </air:FareRuleFailureInfo>
+                  </air:FareInfo>
+                  <air:FareInfo Key="MHsXG78Q2BKAQIBOAAAAAA==" FareBasis="SVUVN5" PassengerTypeCode="ADT" Origin="SFO" Destination="DEN" EffectiveDate="2017-09-28T15:20:00.000+02:00" DepartureDate="2017-12-07" Amount="EUR64.00" NotValidBefore="2017-12-07" NotValidAfter="2017-12-07" TaxAmount="EUR16.90">
+                     <common_v42_0:Endorsement Value="NONREF FEES APPLY"/>
+                     <air:FareRuleKey FareInfoRef="MHsXG78Q2BKAQIBOAAAAAA==" ProviderCode="1G">6UUVoSldxwjtWtKvUE8DeMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7eUHcuWlOZd4WmwQZP5jcHcjg0M6xXdtgJ13MqkmC5DTP66ViCnI5pcJ6o78aXldVKF/oTXxxF6MWLgFn3B9sPd84PrlTL+yY0oW3UNpGWfoomirW+idf7DePzwi1ZDHGjg2BMJ0qOmdYB1xjSbRrjKfAC/VVJ//0O0ywdvuGQJyTMURFXk0aLEZKCiBJRQPpRbJzSomMiXDmtA+czAxiLh4mpIyW8IVx+x+Kct6JHbVcTqAAcrhngGYAmTv3ctxKI43dyuKKCnXr3fl8Dk6LLnLjXBXklfpzOUZQ/VEq2A6zyxauAs+veBv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfKAxevs8wf8A=</air:FareRuleKey>
+                     <air:FareRuleFailureInfo>
+                        <air:Reason>FareUsageFailure</air:Reason>
+                     </air:FareRuleFailureInfo>
+                  </air:FareInfo>
+                  <air:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKAOIBOAAAAAA==" SegmentRef="MHsXG78Q2BKAvHBOAAAAAA==" HostTokenRef="MHsXG78Q2BKA2HBOAAAAAA=="/>
+                  <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKAQIBOAAAAAA==" SegmentRef="MHsXG78Q2BKAxHBOAAAAAA==" HostTokenRef="MHsXG78Q2BKA3HBOAAAAAA=="/>
+                  <air:TaxInfo Category="AY" Amount="EUR9.52" Key="MHsXG78Q2BKAKIBOAAAAAA=="/>
+                  <air:TaxInfo Category="US" Amount="EUR8.63" Key="MHsXG78Q2BKALIBOAAAAAA=="/>
+                  <air:TaxInfo Category="XF" Amount="EUR7.66" Key="MHsXG78Q2BKAMIBOAAAAAA==">
+                     <common_v42_0:TaxDetail Amount="USD4.50" OriginAirport="DEN"/>
+                     <common_v42_0:TaxDetail Amount="USD4.50" OriginAirport="SFO"/>
+                  </air:TaxInfo>
+                  <air:TaxInfo Category="ZP" Amount="EUR6.98" Key="MHsXG78Q2BKANIBOAAAAAA==">
+                     <common_v42_0:TaxDetail Amount="USD4.10" OriginAirport="DEN"/>
+                     <common_v42_0:TaxDetail Amount="USD4.10" OriginAirport="SFO"/>
+                  </air:TaxInfo>
+                  <air:FareCalc>DEN VX SFO 59.53NVVXVN5 VX DEN 75.35SVUVN5 USD134.88END</air:FareCalc>
+                  <air:PassengerType Code="CNN" Age="10"/>
+                  <air:BaggageAllowances>
+                     <air:BaggageAllowanceInfo TravelerType="CNN" Origin="DEN" Destination="SFO" Carrier="VX">
+                        <air:URLInfo>
+                           <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSVX.BAGG</air:URL>
+                        </air:URLInfo>
+                        <air:TextInfo>
+                           <air:Text>0P</air:Text>
+                           <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                        </air:TextInfo>
+                        <air:BagDetails ApplicableBags="1stChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                        <air:BagDetails ApplicableBags="2ndChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                     </air:BaggageAllowanceInfo>
+                     <air:BaggageAllowanceInfo TravelerType="CNN" Origin="SFO" Destination="DEN" Carrier="VX">
+                        <air:URLInfo>
+                           <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSVX.BAGG</air:URL>
+                        </air:URLInfo>
+                        <air:TextInfo>
+                           <air:Text>0P</air:Text>
+                           <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                        </air:TextInfo>
+                        <air:BagDetails ApplicableBags="1stChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                        <air:BagDetails ApplicableBags="2ndChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                     </air:BaggageAllowanceInfo>
+                     <air:CarryOnAllowanceInfo Origin="DEN" Destination="SFO" Carrier="VX">
+                        <air:TextInfo>
+                           <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="3" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                     </air:CarryOnAllowanceInfo>
+                     <air:CarryOnAllowanceInfo Origin="SFO" Destination="DEN" Carrier="VX">
+                        <air:TextInfo>
+                           <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="3" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                     </air:CarryOnAllowanceInfo>
+                  </air:BaggageAllowances>
+               </air:AirPricingInfo>
+               <air:AirPricingInfo Key="MHsXG78Q2BKAUIBOAAAAAA==" TotalPrice="EUR147.79" BasePrice="USD134.88" ApproximateTotalPrice="EUR147.79" ApproximateBasePrice="EUR115.00" EquivalentBasePrice="EUR115.00" ApproximateTaxes="EUR32.79" Taxes="EUR32.79" LatestTicketingTime="2017-09-29T23:59:00.000+02:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="HR" ProviderCode="1G">
+                  <air:FareInfo Key="MHsXG78Q2BKAZIBOAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="ADT" Origin="DEN" Destination="SFO" EffectiveDate="2017-09-28T15:20:00.000+02:00" DepartureDate="2017-11-07" Amount="EUR51.00" NotValidBefore="2017-11-07" NotValidAfter="2017-11-07" TaxAmount="EUR15.89">
+                     <common_v42_0:Endorsement Value="NONREF FEES APPLY"/>
+                     <air:FareRuleKey FareInfoRef="MHsXG78Q2BKAZIBOAAAAAA==" ProviderCode="1G">6UUVoSldxwjtWtKvUE8DeMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7cH0ES5nMFFx/k6/AgZN/SrwiU/UnhVdm513MqkmC5DTM5nIrfyPpTm24ErYDaIm3ebkVXfCfK5Yer/bRGkSYBehf6E18cRejExEdztRzIN6zqxSaLEtyONYO9FlwB7O8vqNbjwzJx7ogtvCItYneVBEGBAeHcczpsmmKpPghyhp48xmhVim9ONxJomFHX2IZOF/oTXxxF6Mf/9EWDAZDuNHZNO0IOqY3aUuA32Ku4i9RPnJ0Add3NevEe9U/59nTMh0pKIsbBXl1GGRnKRzlZM/XJICOIRe0l8XkOI3g4GoW+QKPIWaRvqly5qxZ3qLwOXLmrFneovA5cuasWd6i8D5W4bRuwrrPA=</air:FareRuleKey>
+                     <air:FareRuleFailureInfo>
+                        <air:Reason>FareUsageFailure</air:Reason>
+                     </air:FareRuleFailureInfo>
+                  </air:FareInfo>
+                  <air:FareInfo Key="MHsXG78Q2BKAbIBOAAAAAA==" FareBasis="SVUVN5" PassengerTypeCode="ADT" Origin="SFO" Destination="DEN" EffectiveDate="2017-09-28T15:20:00.000+02:00" DepartureDate="2017-12-07" Amount="EUR64.00" NotValidBefore="2017-12-07" NotValidAfter="2017-12-07" TaxAmount="EUR16.90">
+                     <common_v42_0:Endorsement Value="NONREF FEES APPLY"/>
+                     <air:FareRuleKey FareInfoRef="MHsXG78Q2BKAbIBOAAAAAA==" ProviderCode="1G">6UUVoSldxwjtWtKvUE8DeMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7eUHcuWlOZd4WmwQZP5jcHcjg0M6xXdtgJ13MqkmC5DTP66ViCnI5pcJ6o78aXldVKF/oTXxxF6MWLgFn3B9sPdTbLfyOqQkjkoW3UNpGWfoomirW+idf7DePzwi1ZDHGjg2BMJ0qOmdYB1xjSbRrjKfAC/VVJ//0O0ywdvuGQJyaCYOHHzHZ1bZKCiBJRQPpRbJzSomMiXDmtA+czAxiLh4mpIyW8IVx+x+Kct6JHbVcTqAAcrhngGYAmTv3ctxKI43dyuKKCnXr3fl8Dk6LLnLjXBXklfpzOUZQ/VEq2A6zyxauAs+veBv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfKAxevs8wf8A=</air:FareRuleKey>
+                     <air:FareRuleFailureInfo>
+                        <air:Reason>FareUsageFailure</air:Reason>
+                     </air:FareRuleFailureInfo>
+                  </air:FareInfo>
+                  <air:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKAZIBOAAAAAA==" SegmentRef="MHsXG78Q2BKAvHBOAAAAAA==" HostTokenRef="MHsXG78Q2BKA4HBOAAAAAA=="/>
+                  <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKAbIBOAAAAAA==" SegmentRef="MHsXG78Q2BKAxHBOAAAAAA==" HostTokenRef="MHsXG78Q2BKA5HBOAAAAAA=="/>
+                  <air:TaxInfo Category="AY" Amount="EUR9.52" Key="MHsXG78Q2BKAVIBOAAAAAA=="/>
+                  <air:TaxInfo Category="US" Amount="EUR8.63" Key="MHsXG78Q2BKAWIBOAAAAAA=="/>
+                  <air:TaxInfo Category="XF" Amount="EUR7.66" Key="MHsXG78Q2BKAXIBOAAAAAA==">
+                     <common_v42_0:TaxDetail Amount="USD4.50" OriginAirport="DEN"/>
+                     <common_v42_0:TaxDetail Amount="USD4.50" OriginAirport="SFO"/>
+                  </air:TaxInfo>
+                  <air:TaxInfo Category="ZP" Amount="EUR6.98" Key="MHsXG78Q2BKAYIBOAAAAAA==">
+                     <common_v42_0:TaxDetail Amount="USD4.10" OriginAirport="DEN"/>
+                     <common_v42_0:TaxDetail Amount="USD4.10" OriginAirport="SFO"/>
+                  </air:TaxInfo>
+                  <air:FareCalc>DEN VX SFO 59.53NVVXVN5 VX DEN 75.35SVUVN5 USD134.88END</air:FareCalc>
+                  <air:PassengerType Code="CNN" Age="6"/>
+                  <air:BaggageAllowances>
+                     <air:BaggageAllowanceInfo TravelerType="CNN" Origin="DEN" Destination="SFO" Carrier="VX">
+                        <air:URLInfo>
+                           <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSVX.BAGG</air:URL>
+                        </air:URLInfo>
+                        <air:TextInfo>
+                           <air:Text>0P</air:Text>
+                           <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                        </air:TextInfo>
+                        <air:BagDetails ApplicableBags="1stChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                        <air:BagDetails ApplicableBags="2ndChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                     </air:BaggageAllowanceInfo>
+                     <air:BaggageAllowanceInfo TravelerType="CNN" Origin="SFO" Destination="DEN" Carrier="VX">
+                        <air:URLInfo>
+                           <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSVX.BAGG</air:URL>
+                        </air:URLInfo>
+                        <air:TextInfo>
+                           <air:Text>0P</air:Text>
+                           <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                        </air:TextInfo>
+                        <air:BagDetails ApplicableBags="1stChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                        <air:BagDetails ApplicableBags="2ndChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                     </air:BaggageAllowanceInfo>
+                     <air:CarryOnAllowanceInfo Origin="DEN" Destination="SFO" Carrier="VX">
+                        <air:TextInfo>
+                           <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="3" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                     </air:CarryOnAllowanceInfo>
+                     <air:CarryOnAllowanceInfo Origin="SFO" Destination="DEN" Carrier="VX">
+                        <air:TextInfo>
+                           <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="3" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                     </air:CarryOnAllowanceInfo>
+                  </air:BaggageAllowances>
+               </air:AirPricingInfo>
+               <air:AirPricingInfo Key="MHsXG78Q2BKAfIBOAAAAAA==" TotalPrice="EUR0.00" BasePrice="USD0.00" ApproximateTotalPrice="EUR0.00" ApproximateBasePrice="EUR0.00" EquivalentBasePrice="EUR0.00" ApproximateTaxes="EUR0.00" Taxes="EUR0.00" LatestTicketingTime="2017-09-29T23:59:00.000+02:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="HR" ProviderCode="1G">
+                  <air:FareInfo Key="MHsXG78Q2BKAgIBOAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="INF" Origin="DEN" Destination="SFO" EffectiveDate="2017-09-28T15:20:00.000+02:00" DepartureDate="2017-11-07" Amount="EUR0.00" NotValidAfter="2018-04-07" TaxAmount="EUR0.00">
+                     <common_v42_0:Endorsement Value="NONREF FEES APPLY"/>
+                     <air:FareRuleKey FareInfoRef="MHsXG78Q2BKAgIBOAAAAAA==" ProviderCode="1G">6UUVoSldxwjtWtKvUE8DeMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7cH0ES5nMFFx6SYpb+ZZTFQkeqLqw6QHQ9k2Z/7pyoBqKM7JHVLrevT3fdC+3nNsWVi4BZ9wfbD3er/bRGkSYBeVgwkzPzxRwl0yW3p+wEZbkSXyVUQo7izjDC3rTjJ9BRDxXO2ZkIT/oMN1QPqv5KjvdbUEPYsX4FUSOvkja4E9ntqCgdkj0c/IEEkbXD8WS3bJgf2NTHIPtlA0mYFHnlIhf6E18cRejGWQD0tmIKUMo2lvt/1mfAD5Pyzy0urUKCH6WhCcMUlLGtA+czAxiLh3m1+cnXKJufqjETVQv3jgPwBShF29N4Sv4Xvb2u1Qx+/he9va7VDH3C6Ft4pH9C6</air:FareRuleKey>
+                     <air:FareRuleFailureInfo>
+                        <air:Reason>FareUsageFailure</air:Reason>
+                     </air:FareRuleFailureInfo>
+                  </air:FareInfo>
+                  <air:FareInfo Key="MHsXG78Q2BKAiIBOAAAAAA==" FareBasis="SVUVN5" PassengerTypeCode="INF" Origin="SFO" Destination="DEN" EffectiveDate="2017-09-28T15:20:00.000+02:00" DepartureDate="2017-12-07" Amount="EUR0.00" NotValidAfter="2018-04-07" TaxAmount="EUR0.00">
+                     <common_v42_0:Endorsement Value="NONREF FEES APPLY"/>
+                     <air:FareRuleKey FareInfoRef="MHsXG78Q2BKAiIBOAAAAAA==" ProviderCode="1G">6UUVoSldxwjtWtKvUE8DeMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7eUHcuWlOZd4Zd5EoHPFrVlkeqLqw6QHQ9ERLv2qo16kuLrzckR6cuJaPPOpnKO0rSF/oTXxxF6MWLgFn3B9sPdHPEe9UYP83eGBpf0U/nG2O1/VBqyVR31YXVTt9Z6KSCDDdUD6r+So+I7dGwW7TxSQy3HXODDOI3tSgUJdCYh7TiX/Bv4OHmMazCZnzwgdcE8F4PsaixzznHL6+NHumd+gddW+1p0A6vv0ChtFOjPof/zIhiHQgEJkYvvhg1QF9UkmD1wbQbuQlxdDp2Uc38jaupfEQCAhWQTfTwEVex3tMuWFfXVd1OAly5qxZ3qLwOXLmrFneovA9VDZx7+I2/B</air:FareRuleKey>
+                     <air:FareRuleFailureInfo>
+                        <air:Reason>FareUsageFailure</air:Reason>
+                     </air:FareRuleFailureInfo>
+                  </air:FareInfo>
+                  <air:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKAgIBOAAAAAA==" SegmentRef="MHsXG78Q2BKAvHBOAAAAAA==" HostTokenRef="MHsXG78Q2BKA6HBOAAAAAA=="/>
+                  <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKAiIBOAAAAAA==" SegmentRef="MHsXG78Q2BKAxHBOAAAAAA==" HostTokenRef="MHsXG78Q2BKA7HBOAAAAAA=="/>
+                  <air:FareCalc>DEN VX SFO 0.00NVVXVN5 VX DEN 0.00SVUVN5 USD0.00END</air:FareCalc>
+                  <air:PassengerType Code="INF" Age="1"/>
+                  <air:BaggageAllowances>
+                     <air:BaggageAllowanceInfo TravelerType="INF" Origin="DEN" Destination="SFO" Carrier="VX">
+                        <air:URLInfo>
+                           <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSVX.BAGG</air:URL>
+                        </air:URLInfo>
+                        <air:TextInfo>
+                           <air:Text>0P</air:Text>
+                           <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                        </air:TextInfo>
+                        <air:BagDetails ApplicableBags="1stChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                        <air:BagDetails ApplicableBags="2ndChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                     </air:BaggageAllowanceInfo>
+                     <air:BaggageAllowanceInfo TravelerType="INF" Origin="SFO" Destination="DEN" Carrier="VX">
+                        <air:URLInfo>
+                           <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSVX.BAGG</air:URL>
+                        </air:URLInfo>
+                        <air:TextInfo>
+                           <air:Text>0P</air:Text>
+                           <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                        </air:TextInfo>
+                        <air:BagDetails ApplicableBags="1stChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                        <air:BagDetails ApplicableBags="2ndChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                     </air:BaggageAllowanceInfo>
+                     <air:CarryOnAllowanceInfo Origin="DEN" Destination="SFO" Carrier="VX">
+                        <air:TextInfo>
+                           <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="3" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                     </air:CarryOnAllowanceInfo>
+                     <air:CarryOnAllowanceInfo Origin="SFO" Destination="DEN" Carrier="VX">
+                        <air:TextInfo>
+                           <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="3" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                     </air:CarryOnAllowanceInfo>
+                  </air:BaggageAllowances>
+               </air:AirPricingInfo>
+               <air:AirPricingInfo Key="MHsXG78Q2BKAmIBOAAAAAA==" TotalPrice="EUR0.00" BasePrice="USD0.00" ApproximateTotalPrice="EUR0.00" ApproximateBasePrice="EUR0.00" EquivalentBasePrice="EUR0.00" ApproximateTaxes="EUR0.00" Taxes="EUR0.00" LatestTicketingTime="2017-09-29T23:59:00.000+02:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="HR" ProviderCode="1G">
+                  <air:FareInfo Key="MHsXG78Q2BKAnIBOAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="INF" Origin="DEN" Destination="SFO" EffectiveDate="2017-09-28T15:20:00.000+02:00" DepartureDate="2017-11-07" Amount="EUR0.00" NotValidAfter="2018-04-07" TaxAmount="EUR0.00">
+                     <common_v42_0:Endorsement Value="NONREF FEES APPLY"/>
+                     <air:FareRuleKey FareInfoRef="MHsXG78Q2BKAnIBOAAAAAA==" ProviderCode="1G">6UUVoSldxwjtWtKvUE8DeMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7cH0ES5nMFFx6SYpb+ZZTFQkeqLqw6QHQ9k2Z/7pyoBqKM7JHVLrevT3fdC+3nNsWVi4BZ9wfbD3er/bRGkSYBeuUPN8eQSAhJ0yW3p+wEZbkSXyVUQo7izjDC3rTjJ9BRDxXO2ZkIT/oMN1QPqv5KjvdbUEPYsX4EhTBDdm/DI03tqCgdkj0c/IEEkbXD8WS3bJgf2NTHIPtlA0mYFHnlIhf6E18cRejGWQD0tmIKUMo2lvt/1mfAD5Pyzy0urUKCH6WhCcMUlLGtA+czAxiLh3m1+cnXKJufqjETVQv3jgPwBShF29N4Sv4Xvb2u1Qx+/he9va7VDH3C6Ft4pH9C6</air:FareRuleKey>
+                     <air:FareRuleFailureInfo>
+                        <air:Reason>FareUsageFailure</air:Reason>
+                     </air:FareRuleFailureInfo>
+                  </air:FareInfo>
+                  <air:FareInfo Key="MHsXG78Q2BKApIBOAAAAAA==" FareBasis="SVUVN5" PassengerTypeCode="INF" Origin="SFO" Destination="DEN" EffectiveDate="2017-09-28T15:20:00.000+02:00" DepartureDate="2017-12-07" Amount="EUR0.00" NotValidAfter="2018-04-07" TaxAmount="EUR0.00">
+                     <common_v42_0:Endorsement Value="NONREF FEES APPLY"/>
+                     <air:FareRuleKey FareInfoRef="MHsXG78Q2BKApIBOAAAAAA==" ProviderCode="1G">6UUVoSldxwjtWtKvUE8DeMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7eUHcuWlOZd4Zd5EoHPFrVlkeqLqw6QHQ9ERLv2qo16kuLrzckR6cuJaPPOpnKO0rSF/oTXxxF6MWLgFn3B9sPdRpjNTv5CaMGGBpf0U/nG2O1/VBqyVR31YXVTt9Z6KSCDDdUD6r+So+I7dGwW7TxSQy3HXODDOI1RPm04iNpmhjiX/Bv4OHmMazCZnzwgdcE8F4PsaixzznHL6+NHumd+gddW+1p0A6vv0ChtFOjPof/zIhiHQgEJkYvvhg1QF9UkmD1wbQbuQlxdDp2Uc38jaupfEQCAhWQTfTwEVex3tMuWFfXVd1OAly5qxZ3qLwOXLmrFneovA9VDZx7+I2/B</air:FareRuleKey>
+                     <air:FareRuleFailureInfo>
+                        <air:Reason>FareUsageFailure</air:Reason>
+                     </air:FareRuleFailureInfo>
+                  </air:FareInfo>
+                  <air:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKAnIBOAAAAAA==" SegmentRef="MHsXG78Q2BKAvHBOAAAAAA==" HostTokenRef="MHsXG78Q2BKA8HBOAAAAAA=="/>
+                  <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKApIBOAAAAAA==" SegmentRef="MHsXG78Q2BKAxHBOAAAAAA==" HostTokenRef="MHsXG78Q2BKA9HBOAAAAAA=="/>
+                  <air:FareCalc>DEN VX SFO 0.00NVVXVN5 VX DEN 0.00SVUVN5 USD0.00END</air:FareCalc>
+                  <air:PassengerType Code="INF" Age="0"/>
+                  <air:BaggageAllowances>
+                     <air:BaggageAllowanceInfo TravelerType="INF" Origin="DEN" Destination="SFO" Carrier="VX">
+                        <air:URLInfo>
+                           <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSVX.BAGG</air:URL>
+                        </air:URLInfo>
+                        <air:TextInfo>
+                           <air:Text>0P</air:Text>
+                           <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                        </air:TextInfo>
+                        <air:BagDetails ApplicableBags="1stChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                        <air:BagDetails ApplicableBags="2ndChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                     </air:BaggageAllowanceInfo>
+                     <air:BaggageAllowanceInfo TravelerType="INF" Origin="SFO" Destination="DEN" Carrier="VX">
+                        <air:URLInfo>
+                           <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSVX.BAGG</air:URL>
+                        </air:URLInfo>
+                        <air:TextInfo>
+                           <air:Text>0P</air:Text>
+                           <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                        </air:TextInfo>
+                        <air:BagDetails ApplicableBags="1stChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                        <air:BagDetails ApplicableBags="2ndChecked" BasePrice="USD25.00" ApproximateBasePrice="EUR21.24" TotalPrice="USD25.00" ApproximateTotalPrice="EUR21.24">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>UPTO50LB/23KG AND UPTO80LI/203LCM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:BagDetails>
+                     </air:BaggageAllowanceInfo>
+                     <air:CarryOnAllowanceInfo Origin="DEN" Destination="SFO" Carrier="VX">
+                        <air:TextInfo>
+                           <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="3" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                     </air:CarryOnAllowanceInfo>
+                     <air:CarryOnAllowanceInfo Origin="SFO" Destination="DEN" Carrier="VX">
+                        <air:TextInfo>
+                           <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                        <air:CarryOnDetails ApplicableCarryOnBags="3" BasePrice="USD0.00" ApproximateBasePrice="EUR0.00" TotalPrice="USD0.00" ApproximateTotalPrice="EUR0.00">
+                           <air:BaggageRestriction>
+                              <air:TextInfo>
+                                 <air:Text>CARRY ON PERSONAL ITEM</air:Text>
+                              </air:TextInfo>
+                           </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                     </air:CarryOnAllowanceInfo>
+                  </air:BaggageAllowances>
+               </air:AirPricingInfo>
+               <air:FareNote Key="MHsXG78Q2BKAtIBOAAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 0.849711EUR</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAuIBOAAAAAA==">LAST DATE TO PURCHASE TICKET: 29SEP17</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAvIBOAAAAAA==">TICKETING AGENCY 8X5X</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAwIBOAAAAAA==">DEFAULT PLATING CARRIER HR</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAxIBOAAAAAA==">E-TKT REQUIRED</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAyIBOAAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAzIBOAAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 0.849711EUR</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKA0IBOAAAAAA==">LAST DATE TO PURCHASE TICKET: 29SEP17</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKA1IBOAAAAAA==">TICKETING AGENCY 8X5X</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKA2IBOAAAAAA==">DEFAULT PLATING CARRIER HR</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKA3IBOAAAAAA==">E-TKT REQUIRED</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKA4IBOAAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKA5IBOAAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 0.849711EUR</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKA6IBOAAAAAA==">LAST DATE TO PURCHASE TICKET: 29SEP17</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKA7IBOAAAAAA==">TICKETING AGENCY 8X5X</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKA8IBOAAAAAA==">DEFAULT PLATING CARRIER HR</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKA9IBOAAAAAA==">E-TKT REQUIRED</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKA+IBOAAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKA/IBOAAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 0.849711EUR</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAAJBOAAAAAA==">LAST DATE TO PURCHASE TICKET: 29SEP17</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKABJBOAAAAAA==">TICKETING AGENCY 8X5X</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKACJBOAAAAAA==">DEFAULT PLATING CARRIER HR</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKADJBOAAAAAA==">E-TKT REQUIRED</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAEJBOAAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAFJBOAAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 0.849711EUR</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAGJBOAAAAAA==">LAST DATE TO PURCHASE TICKET: 29SEP17</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAHJBOAAAAAA==">TICKETING AGENCY 8X5X</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAIJBOAAAAAA==">DEFAULT PLATING CARRIER HR</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAJJBOAAAAAA==">E-TKT REQUIRED</air:FareNote>
+               <air:FareNote Key="MHsXG78Q2BKAKJBOAAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+               <common_v42_0:HostToken Key="MHsXG78Q2BKA0HBOAAAAAA==">GFB10101ADT00 01NVVXVN5 010001#GFB200010101NADTV30005V6200100003998W#</common_v42_0:HostToken>
+               <common_v42_0:HostToken Key="MHsXG78Q2BKA1HBOAAAAAA==">GFB10101ADT00 02SVUVN5 010002#GFB200010102NADTV30005V620010000799#</common_v42_0:HostToken>
+               <common_v42_0:HostToken Key="MHsXG78Q2BKA2HBOAAAAAA==">GFB10202CNN00 01NVVXVN5 010001#GFB200020201NADTV30005V6200100003998W#</common_v42_0:HostToken>
+               <common_v42_0:HostToken Key="MHsXG78Q2BKA3HBOAAAAAA==">GFB10202CNN00 02SVUVN5 010002#GFB200020202NADTV30005V620010000799#</common_v42_0:HostToken>
+               <common_v42_0:HostToken Key="MHsXG78Q2BKA4HBOAAAAAA==">GFB10303CNN00 01NVVXVN5 010001#GFB200030301NADTV30005V6200100003998W#</common_v42_0:HostToken>
+               <common_v42_0:HostToken Key="MHsXG78Q2BKA5HBOAAAAAA==">GFB10303CNN00 02SVUVN5 010002#GFB200030302NADTV30005V620010000799#</common_v42_0:HostToken>
+               <common_v42_0:HostToken Key="MHsXG78Q2BKA6HBOAAAAAA==">GFB10404INF00 01NVVXVN5 010001#GFB200040401NINFV30005V6200800001991000002184Z#</common_v42_0:HostToken>
+               <common_v42_0:HostToken Key="MHsXG78Q2BKA7HBOAAAAAA==">GFB10404INF00 02SVUVN5 010002#GFB200040402NINFV30005V6200900001991000002184Z#</common_v42_0:HostToken>
+               <common_v42_0:HostToken Key="MHsXG78Q2BKA8HBOAAAAAA==">GFB10505INF00 01NVVXVN5 010001#GFB200050501NINFV30005V6200800001991000002184Z#</common_v42_0:HostToken>
+               <common_v42_0:HostToken Key="MHsXG78Q2BKA9HBOAAAAAA==">GFB10505INF00 02SVUVN5 010002#GFB200050502NINFV30005V6200900001991000002184Z#</common_v42_0:HostToken>
+            </air:AirPricingSolution>
+         </air:AirPriceResult>
+      </air:AirPriceRsp>
+   </SOAP:Body>
+</SOAP:Envelope>

@@ -1,0 +1,30 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:AirPriceReq xmlns="http://www.travelport.com/schema/common_v42_0" xmlns:ns2="http://www.travelport.com/schema/air_v42_0" xmlns:ns3="http://www.travelport.com/schema/cruise_v42_0" xmlns:ns4="http://www.travelport.com/schema/rail_v42_0" xmlns:ns5="http://www.travelport.com/schema/vehicle_v42_0" xmlns:ns6="http://www.travelport.com/schema/passive_v42_0" xmlns:ns7="http://www.travelport.com/schema/universal_v42_0" xmlns:ns8="http://www.travelport.com/schema/hotel_v42_0" xmlns:ns9="http://www.travelport.com/soa/common/security/SessionContext_v1" TraceId="7f680af1-f8e6-427d-8536-7be2e6269102" TargetBranch="P7085271">
+         <BillingPointOfSaleInfo OriginApplication="UAPI"/>
+         <ns2:AirItinerary>
+            <ns2:AirSegment Group="0" Carrier="VX" FlightNumber="1867" AvailabilitySource="H" ProviderCode="1G" Origin="DEN" Destination="SFO" DepartureTime="2017-11-07T16:00:00.000-07:00" ArrivalTime="2017-11-07T17:46:00.000-08:00" Key="no14F73R2BKAuOBRAAAAAA=="/>
+            <ns2:AirSegment Group="1" Carrier="VX" FlightNumber="1870" AvailabilitySource="H" ProviderCode="1G" Origin="SFO" Destination="DEN" DepartureTime="2017-12-07T19:25:00.000-08:00" ArrivalTime="2017-12-07T22:51:00.000-07:00" Key="no14F73R2BKA3OBRAAAAAA=="/>
+         </ns2:AirItinerary>
+         <ns2:AirPricingModifiers InventoryRequestType="DirectAccess"/>
+         <SearchPassenger Key="dMkvb_aFSa21-h0bBBknLQ==" Code="ADT" BookingTravelerRef="dMkvb_aFSa21-h0bBBknLQ=="/>
+         <SearchPassenger Key="3NlQwugrShmqXE9AsvTOJw==" Code="ADT" BookingTravelerRef="3NlQwugrShmqXE9AsvTOJw=="/>
+         <SearchPassenger Key="OM92TnwASFe1CNl8z1iBog==" Code="CNN" Age="10" BookingTravelerRef="OM92TnwASFe1CNl8z1iBog=="/>
+         <SearchPassenger Key="EwKYKzenRUqmhY4IwfhKPA==" Code="CNN" Age="6" BookingTravelerRef="EwKYKzenRUqmhY4IwfhKPA=="/>
+         <SearchPassenger Key="Srsq2tCpSmKXyqSHUST4gg==" Code="INF" Age="1" BookingTravelerRef="Srsq2tCpSmKXyqSHUST4gg=="/>
+         <SearchPassenger Key="W5Woj2_0Sf6GTtkkXtW4UA==" Code="INF" Age="0" BookingTravelerRef="W5Woj2_0Sf6GTtkkXtW4UA=="/>
+         <ns2:AirPricingCommand>
+            <ns2:AirSegmentPricingModifiers AirSegmentRef="no14F73R2BKAuOBRAAAAAA==" FareBasisCode="NVVXVN5">
+               <ns2:PermittedBookingCodes>
+                  <ns2:BookingCode Code="N"/>
+               </ns2:PermittedBookingCodes>
+            </ns2:AirSegmentPricingModifiers>
+            <ns2:AirSegmentPricingModifiers AirSegmentRef="no14F73R2BKA3OBRAAAAAA==" FareBasisCode="SVUVN5">
+               <ns2:PermittedBookingCodes>
+                  <ns2:BookingCode Code="S"/>
+               </ns2:PermittedBookingCodes>
+            </ns2:AirSegmentPricingModifiers>
+         </ns2:AirPricingCommand>
+      </ns2:AirPriceReq>
+   </soap:Body>
+</soap:Envelope>

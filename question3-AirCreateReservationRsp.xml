@@ -1,0 +1,91 @@
+
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <universal:AirCreateReservationRsp TraceId="357573f4-d645-40d6-a662-cb99a2c93394" TransactionId="C937ADE80A07643B756325D496181745" ResponseTime="4485" xmlns:universal="http://www.travelport.com/schema/universal_v42_0" xmlns:common_v42_0="http://www.travelport.com/schema/common_v42_0" xmlns:air="http://www.travelport.com/schema/air_v42_0">
+            <common_v42_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">NO FARES</common_v42_0:ResponseMessage>
+            <common_v42_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">Some of the requested AirPricingInfos could not be saved for the requested provider.</common_v42_0:ResponseMessage>
+            <common_v42_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">3100 : INVALID INPUT</common_v42_0:ResponseMessage>
+            <universal:UniversalRecord LocatorCode="Q41L2J" Version="0" Status="Active">
+                <common_v42_0:BookingTraveler Key="htmSeHwAQeW/gqlj6w/KYg==" TravelerType="ADT" Age="35" DOB="1982-05-10" Gender="M" ElStat="A">
+                    <common_v42_0:BookingTravelerName First="izkrh" Last="izkrhlast"/>
+                    <common_v42_0:PhoneNumber Key="yOAWG77Q2BKAbiFSAAAAAA==" Type="None" Location="DEN" CountryCode="1" Number="3333333" AreaCode="303" ElStat="A">
+                        <common_v42_0:ProviderReservationInfoRef Key="yOAWG77Q2BKAtiFSAAAAAA=="/>
+                    </common_v42_0:PhoneNumber>
+                    <common_v42_0:SSR Key="yOAWG77Q2BKAuiFSAAAAAA==" SegmentRef="MHsXG78Q2BKANuXRAAAAAA==" Status="KK" Type="INFT" FreeText="ZFQPDLAST/ZFQPD 10MAY17" Carrier="VX" ProviderReservationInfoRef="yOAWG77Q2BKAtiFSAAAAAA==" ElStat="A"/>
+                    <common_v42_0:SSR Key="yOAWG77Q2BKAxiFSAAAAAA==" SegmentRef="MHsXG78Q2BKAPuXRAAAAAA==" Status="KK" Type="INFT" FreeText="ZFQPDLAST/ZFQPD 10MAY17" Carrier="VX" ProviderReservationInfoRef="yOAWG77Q2BKAtiFSAAAAAA==" ElStat="A"/>
+                </common_v42_0:BookingTraveler>
+                <common_v42_0:BookingTraveler Key="NH4C5fE7Sau5CfYc0EgdyQ==" TravelerType="ADT" Age="35" DOB="1982-05-10" Gender="M" ElStat="A">
+                    <common_v42_0:BookingTravelerName First="zdfbx" Last="zdfbxlast"/>
+                    <common_v42_0:PhoneNumber Key="yOAWG77Q2BKAciFSAAAAAA==" Type="None" Location="DEN" CountryCode="1" Number="3333333" AreaCode="303" ElStat="A">
+                        <common_v42_0:ProviderReservationInfoRef Key="yOAWG77Q2BKAtiFSAAAAAA=="/>
+                    </common_v42_0:PhoneNumber>
+                    <common_v42_0:SSR Key="yOAWG77Q2BKAziFSAAAAAA==" SegmentRef="MHsXG78Q2BKANuXRAAAAAA==" Status="KK" Type="INFT" FreeText="MHZUXLAST/MHZUX 10MAY17" Carrier="VX" ProviderReservationInfoRef="yOAWG77Q2BKAtiFSAAAAAA==" ElStat="A"/>
+                    <common_v42_0:SSR Key="yOAWG77Q2BKAyiFSAAAAAA==" SegmentRef="MHsXG78Q2BKAPuXRAAAAAA==" Status="KK" Type="INFT" FreeText="MHZUXLAST/MHZUX 10MAY17" Carrier="VX" ProviderReservationInfoRef="yOAWG77Q2BKAtiFSAAAAAA==" ElStat="A"/>
+                </common_v42_0:BookingTraveler>
+                <common_v42_0:BookingTraveler Key="iIfDhTkcTlqnFn/Sg1BUeQ==" TravelerType="CNN" Age="2" DOB="2015-05-10" Gender="M" ElStat="A">
+                    <common_v42_0:BookingTravelerName First="pkusl" Last="pkusllast"/>
+                    <common_v42_0:PhoneNumber Key="yOAWG77Q2BKAdiFSAAAAAA==" Type="None" Location="DEN" CountryCode="1" Number="3333333" AreaCode="303" ElStat="A">
+                        <common_v42_0:ProviderReservationInfoRef Key="yOAWG77Q2BKAtiFSAAAAAA=="/>
+                    </common_v42_0:PhoneNumber>
+                </common_v42_0:BookingTraveler>
+                <common_v42_0:BookingTraveler Key="IQF6DoA0S7iEp85o9AgwWg==" TravelerType="CNN" Age="2" DOB="2015-05-10" Gender="M" ElStat="A">
+                    <common_v42_0:BookingTravelerName First="iqlwx" Last="iqlwxlast"/>
+                    <common_v42_0:PhoneNumber Key="yOAWG77Q2BKAeiFSAAAAAA==" Type="None" Location="DEN" CountryCode="1" Number="3333333" AreaCode="303" ElStat="A">
+                        <common_v42_0:ProviderReservationInfoRef Key="yOAWG77Q2BKAtiFSAAAAAA=="/>
+                    </common_v42_0:PhoneNumber>
+                </common_v42_0:BookingTraveler>
+                <common_v42_0:BookingTraveler Key="NXSnUy4SRhu2T5xe6wCznA==" TravelerType="INF" Age="0" DOB="2017-05-10" Gender="M" ElStat="A">
+                    <common_v42_0:BookingTravelerName First="zfqpd" Last="zfqpdlast"/>
+                    <common_v42_0:PhoneNumber Key="yOAWG77Q2BKAfiFSAAAAAA==" Type="None" Location="DEN" CountryCode="1" Number="3333333" AreaCode="303" ElStat="A">
+                        <common_v42_0:ProviderReservationInfoRef Key="yOAWG77Q2BKAtiFSAAAAAA=="/>
+                    </common_v42_0:PhoneNumber>
+                    <common_v42_0:NameRemark Key="yOAWG77Q2BKA1iFSAAAAAA==" ElStat="A">
+                        <common_v42_0:RemarkData>10MAY17</common_v42_0:RemarkData>
+                        <common_v42_0:ProviderReservationInfoRef Key="yOAWG77Q2BKAtiFSAAAAAA=="/>
+                    </common_v42_0:NameRemark>
+                </common_v42_0:BookingTraveler>
+                <common_v42_0:BookingTraveler Key="sfStgRXLSPuT/SfbtbPBOg==" TravelerType="INF" Age="0" DOB="2017-05-10" Gender="M" ElStat="A">
+                    <common_v42_0:BookingTravelerName First="mhzux" Last="mhzuxlast"/>
+                    <common_v42_0:PhoneNumber Key="yOAWG77Q2BKAgiFSAAAAAA==" Type="None" Location="DEN" CountryCode="1" Number="3333333" AreaCode="303" ElStat="A">
+                        <common_v42_0:ProviderReservationInfoRef Key="yOAWG77Q2BKAtiFSAAAAAA=="/>
+                    </common_v42_0:PhoneNumber>
+                    <common_v42_0:NameRemark Key="yOAWG77Q2BKA2iFSAAAAAA==" ElStat="A">
+                        <common_v42_0:RemarkData>10MAY17</common_v42_0:RemarkData>
+                        <common_v42_0:ProviderReservationInfoRef Key="yOAWG77Q2BKAtiFSAAAAAA=="/>
+                    </common_v42_0:NameRemark>
+                </common_v42_0:BookingTraveler>
+                <common_v42_0:ActionStatus Key="yOAWG77Q2BKAkiFSAAAAAA==" Type="ACTIVE" ProviderReservationInfoRef="yOAWG77Q2BKAtiFSAAAAAA==" ProviderCode="1G" ElStat="A"/>
+                <universal:ProviderReservationInfo Key="yOAWG77Q2BKAtiFSAAAAAA==" ProviderCode="1G" LocatorCode="BFK274" CreateDate="2017-09-28T16:00:27.560+00:00" ModifiedDate="2017-09-28T16:00:27.560+00:00" HostCreateDate="2017-09-28" OwningPCC="8X5X"/>
+                <air:AirReservation LocatorCode="1Y9AZ6" CreateDate="2017-09-28T16:00:26.888+00:00" ModifiedDate="2017-09-28T16:00:27.560+00:00">
+                    <common_v42_0:SupplierLocator SupplierCode="VX" SupplierLocatorCode="IWFGXT" ProviderReservationInfoRef="yOAWG77Q2BKAtiFSAAAAAA==" CreateDateTime="2017-09-28T16:00:00.000+00:00"/>
+                    <common_v42_0:BookingTravelerRef Key="htmSeHwAQeW/gqlj6w/KYg=="/>
+                    <common_v42_0:BookingTravelerRef Key="NH4C5fE7Sau5CfYc0EgdyQ=="/>
+                    <common_v42_0:BookingTravelerRef Key="iIfDhTkcTlqnFn/Sg1BUeQ=="/>
+                    <common_v42_0:BookingTravelerRef Key="IQF6DoA0S7iEp85o9AgwWg=="/>
+                    <common_v42_0:BookingTravelerRef Key="NXSnUy4SRhu2T5xe6wCznA=="/>
+                    <common_v42_0:BookingTravelerRef Key="sfStgRXLSPuT/SfbtbPBOg=="/>
+                    <common_v42_0:ProviderReservationInfoRef Key="yOAWG77Q2BKAtiFSAAAAAA=="/>
+                    <air:AirSegment Key="MHsXG78Q2BKANuXRAAAAAA==" Group="0" Carrier="VX" CabinClass="Economy" FlightNumber="1867" ProviderCode="1G" Origin="DEN" Destination="SFO" DepartureTime="2017-11-07T16:00:00.000-07:00" ArrivalTime="2017-11-07T17:46:00.000-08:00" TravelTime="166" ClassOfService="N" ETicketability="No" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="yOAWG77Q2BKAtiFSAAAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false" ElStat="A">
+                        <air:FlightDetails Key="yOAWG77Q2BKA3iFSAAAAAA==" Origin="DEN" Destination="SFO" DepartureTime="2017-11-07T16:00:00.000-07:00" ArrivalTime="2017-11-07T17:46:00.000-08:00" FlightTime="166" TravelTime="166" Equipment="320" DestinationTerminal="2" AutomatedCheckin="false" ElStat="A"/>
+                        <common_v42_0:SellMessage>ARRIVES SFO TERMINAL 2</common_v42_0:SellMessage>
+                        <common_v42_0:SellMessage>*010 AS 1867 /CI 9685 /CZ 1879 /SQ 1437*</common_v42_0:SellMessage>
+                        <common_v42_0:SellMessage>*502 NNN/NNN/N/NNN/JUN17*</common_v42_0:SellMessage>
+                    </air:AirSegment>
+                    <air:AirSegment Key="MHsXG78Q2BKAPuXRAAAAAA==" Group="1" Carrier="VX" CabinClass="Economy" FlightNumber="1870" ProviderCode="1G" Origin="SFO" Destination="DEN" DepartureTime="2017-12-08T19:25:00.000-08:00" ArrivalTime="2017-12-08T22:51:00.000-07:00" TravelTime="146" ClassOfService="S" ETicketability="No" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="yOAWG77Q2BKAtiFSAAAAAA==" TravelOrder="2" ProviderSegmentOrder="2" OptionalServicesIndicator="false" ElStat="A">
+                        <air:FlightDetails Key="yOAWG77Q2BKAwiFSAAAAAA==" Origin="SFO" Destination="DEN" DepartureTime="2017-12-08T19:25:00.000-08:00" ArrivalTime="2017-12-08T22:51:00.000-07:00" FlightTime="146" TravelTime="146" Equipment="319" OriginTerminal="2" AutomatedCheckin="false" ElStat="A"/>
+                        <common_v42_0:SellMessage>DEPARTS SFO TERMINAL 2</common_v42_0:SellMessage>
+                        <common_v42_0:SellMessage>*010 AS 1870 /CZ 1876 /SQ 1440*</common_v42_0:SellMessage>
+                        <common_v42_0:SellMessage>*502 072/011/Y/000/JUN17*</common_v42_0:SellMessage>
+                    </air:AirSegment>
+                </air:AirReservation>
+                <common_v42_0:AgencyInfo>
+                    <common_v42_0:AgentAction ActionType="Created" AgentCode="uAPI6941198977-fae8a47b" BranchCode="P7085271" AgencyCode="S7085264" EventTime="2017-09-28T16:00:23.543+00:00"/>
+                </common_v42_0:AgencyInfo>
+                <common_v42_0:FormOfPayment Key="yOAWG77Q2BKAhiFSAAAAAA==" Type="Check" Reusable="false" ProfileKey="pFlmURYLRPSYM40MIDXuJw==" ElStat="A">
+                    <common_v42_0:Check RoutingNumber="456" AccountNumber="7890" CheckNumber="1234567"/>
+                    <common_v42_0:ProviderReservationInfoRef Key="yOAWG77Q2BKAtiFSAAAAAA=="/>
+                </common_v42_0:FormOfPayment>
+            </universal:UniversalRecord>
+        </universal:AirCreateReservationRsp>
+    </SOAP:Body>
+</SOAP:Envelope>

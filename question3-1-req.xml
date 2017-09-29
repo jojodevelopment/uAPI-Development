@@ -1,0 +1,122 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns3:AirCreateReservationReq xmlns="http://www.travelport.com/schema/common_v42_0" xmlns:ns2="http://www.travelport.com/schema/air_v42_0" xmlns:ns3="http://www.travelport.com/schema/universal_v42_0" xmlns:ns4="http://www.travelport.com/schema/cruise_v42_0" xmlns:ns5="http://www.travelport.com/schema/rail_v42_0" xmlns:ns6="http://www.travelport.com/schema/vehicle_v42_0" xmlns:ns7="http://www.travelport.com/schema/hotel_v42_0" xmlns:ns8="http://www.travelport.com/schema/passive_v42_0" xmlns:ns9="http://www.travelport.com/soa/common/security/SessionContext_v1" RetainReservation="Both" TraceId="c6af7d58-fe2c-4618-9403-eff1aafaf813" TargetBranch="P7085271">
+            <BillingPointOfSaleInfo OriginApplication="UAPI"/>
+            <BookingTraveler Key="mIDZYFjDTOG6cuIcFYhFFg==" TravelerType="ADT" Age="35" DOB="1982-05-10" Gender="M">
+                <BookingTravelerName First="qroxm" Last="qroxmlast"/>
+                <PhoneNumber Location="DEN" CountryCode="1" AreaCode="303" Number="3333333"/>
+            </BookingTraveler>
+            <BookingTraveler Key="aWdqs8LESrurgGpndIctwA==" TravelerType="ADT" Age="35" DOB="1982-05-10" Gender="M">
+                <BookingTravelerName First="elcnn" Last="elcnnlast"/>
+                <PhoneNumber Location="DEN" CountryCode="1" AreaCode="303" Number="3333333"/>
+            </BookingTraveler>
+            <BookingTraveler Key="jBdP8StZRPC0kf6RC2VWgQ==" TravelerType="CNN" Age="2" DOB="2015-05-10" Gender="M">
+                <BookingTravelerName First="pmmib" Last="pmmiblast"/>
+                <PhoneNumber Location="DEN" CountryCode="1" AreaCode="303" Number="3333333"/>
+            </BookingTraveler>
+            <BookingTraveler Key="xXvLu6eAQJOTtsyT1LEudg==" TravelerType="CNN" Age="2" DOB="2015-05-10" Gender="M">
+                <BookingTravelerName First="vnwil" Last="vnwillast"/>
+                <PhoneNumber Location="DEN" CountryCode="1" AreaCode="303" Number="3333333"/>
+            </BookingTraveler>
+            <BookingTraveler Key="QI9V5FLfRxaUdSi2Jads5A==" TravelerType="INF" Age="0" DOB="2017-05-10" Gender="M">
+                <BookingTravelerName First="stlit" Last="stlitlast"/>
+                <PhoneNumber Location="DEN" CountryCode="1" AreaCode="303" Number="3333333"/>
+            </BookingTraveler>
+            <BookingTraveler Key="34h0mOFrR2G1UafkhWPfaA==" TravelerType="INF" Age="0" DOB="2017-05-10" Gender="M">
+                <BookingTravelerName First="dnngd" Last="dnngdlast"/>
+                <PhoneNumber Location="DEN" CountryCode="1" AreaCode="303" Number="3333333"/>
+            </BookingTraveler>
+            <FormOfPayment Key="1" Type="Check">
+                <Check RoutingNumber="456" AccountNumber="7890" CheckNumber="1234567"/>
+            </FormOfPayment>
+            <ns2:AirPricingSolution Key="MHsXG78Q2BKAkeAdAAAAAA==" QuoteDate="2017-09-29" TotalPrice="EUR535.24" BasePrice="USD476.24" ApproximateTotalPrice="EUR535.24" ApproximateBasePrice="EUR408.00" EquivalentBasePrice="EUR408.00" Taxes="EUR127.24" Fees="EUR0.00" ApproximateTaxes="EUR127.24">
+                <ns2:AirSegment Group="0" Carrier="VX" FlightNumber="1865" ClassOfService="N" ChangeOfPlane="false" OptionalServicesIndicator="false" FlightTime="166" TravelTime="166" Distance="954" ProviderCode="1G" Origin="DEN" Destination="SFO" DepartureTime="2017-11-08T12:00:00.000-07:00" ArrivalTime="2017-11-08T13:46:00.000-08:00" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" Key="MHsXG78Q2BKAgeAdAAAAAA==">
+                    <ns2:CodeshareInfo OperatingCarrier="VX">Virgin America Inc</ns2:CodeshareInfo>
+                </ns2:AirSegment>
+                <ns2:AirSegment Group="1" Carrier="VX" FlightNumber="1868" ClassOfService="N" ChangeOfPlane="false" OptionalServicesIndicator="false" FlightTime="146" TravelTime="146" Distance="954" ProviderCode="1G" Origin="SFO" Destination="DEN" DepartureTime="2017-12-09T12:10:00.000-08:00" ArrivalTime="2017-12-09T15:36:00.000-07:00" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" Key="MHsXG78Q2BKAieAdAAAAAA==">
+                    <ns2:CodeshareInfo OperatingCarrier="VX">Virgin America Inc</ns2:CodeshareInfo>
+                </ns2:AirSegment>
+                <ns2:AirPricingInfo Key="MHsXG78Q2BKAveAdAAAAAA==" IncludesVAT="false" Refundable="true" LatestTicketingTime="2017-09-30T23:59:00.000+02:00" PricingMethod="Auto" TotalPrice="EUR133.81" BasePrice="USD119.06" ApproximateTotalPrice="EUR133.81" ApproximateBasePrice="EUR102.00" EquivalentBasePrice="EUR102.00" Taxes="EUR31.81" ApproximateTaxes="EUR31.81" ProviderCode="1G">
+                    <ns2:FareInfo Key="MHsXG78Q2BKA0eAdAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="ADT" Origin="DEN" Destination="SFO" EffectiveDate="2017-09-29T10:10:00.000+02:00" DepartureDate="2017-11-08" Amount="EUR51.00" NotValidBefore="2017-11-08" NotValidAfter="2017-11-08" TaxAmount="EUR15.91">
+                        <ns2:FareRuleKey FareInfoRef="MHsXG78Q2BKA0eAdAAAAAA==" ProviderCode="1G">6UUVoSldxwhxppKGqqcn9cbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7cH0ES5nMFFx/k6/AgZN/SrwiU/UnhVdm513MqkmC5DTM5nIrfyPpTm24ErYDaIm3fCHLo1pwCld+r/bRGkSYBehf6E18cRejGVqfCTByZWBzqxSaLEtyONYO9FlwB7O8vqNbjwzJx7ogtvCItYneVBEGBAeHcczpsmmKpPghyhp0ACA4xcw3/+xJomFHX2IZOF/oTXxxF6Mf/9EWDAZDuNHZNO0IOqY3aUuA32Ku4i9RPnJ0Add3NevEe9U/59nTMh0pKIsbBXl1GGRnKRzlZM/XJICOIRe0l8XkOI3g4GoW+QKPIWaRvqly5qxZ3qLwOXLmrFneovA5cuasWd6i8D5W4bRuwrrPA=</ns2:FareRuleKey>
+                    </ns2:FareInfo>
+                    <ns2:FareInfo Key="MHsXG78Q2BKA1eAdAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="ADT" Origin="SFO" Destination="DEN" EffectiveDate="2017-09-29T10:10:00.000+02:00" DepartureDate="2017-12-09" Amount="EUR51.00" NotValidBefore="2017-12-09" NotValidAfter="2017-12-09" TaxAmount="EUR15.90">
+                        <ns2:FareRuleKey FareInfoRef="MHsXG78Q2BKA1eAdAAAAAA==" ProviderCode="1G">6UUVoSldxwhxppKGqqcn9cbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7eUHcuWlOZd4QH83pPt+kNqjg0M6xXdtgJ13MqkmC5DTM5nIrfyPpTmrjK4BKblJEyaKfjPBozXeur/bRGkSYBehf6E18cRejGVqfCTByZWBzqxSaLEtyONYO9FlwB7O8vqNbjwzJx7ogtvCItYneVBzBQLbPzweKAmmKpPghyhp0ACA4xcw3/+xJomFHX2IZOF/oTXxxF6Mf/9EWDAZDuNHZNO0IOqY3aUuA32Ku4i9RPnJ0Add3NevEe9U/59nTMh0pKIsbBXl1GGRnKRzlZM/XJICOIRe0l8XkOI3g4GoW+QKPIWaRvqly5qxZ3qLwOXLmrFneovA5cuasWd6i8D5W4bRuwrrPA=</ns2:FareRuleKey>
+                    </ns2:FareInfo>
+                    <ns2:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKA0eAdAAAAAA==" SegmentRef="MHsXG78Q2BKAgeAdAAAAAA==" HostTokenRef="MHsXG78Q2BKAleAdAAAAAA=="/>
+                    <ns2:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKA1eAdAAAAAA==" SegmentRef="MHsXG78Q2BKAieAdAAAAAA==" HostTokenRef="MHsXG78Q2BKAmeAdAAAAAA=="/>
+                    <ns2:TaxInfo Key="MHsXG78Q2BKAweAdAAAAAA==" Category="AY" Amount="EUR9.52"/>
+                    <ns2:TaxInfo Key="MHsXG78Q2BKAxeAdAAAAAA==" Category="US" Amount="EUR7.65"/>
+                    <ns2:TaxInfo Key="MHsXG78Q2BKAyeAdAAAAAA==" Category="XF" Amount="EUR7.66"/>
+                    <ns2:TaxInfo Key="MHsXG78Q2BKAzeAdAAAAAA==" Category="ZP" Amount="EUR6.98"/>
+                    <ns2:PassengerType Code="ADT" BookingTravelerRef="mIDZYFjDTOG6cuIcFYhFFg=="/>
+                    <ns2:PassengerType Code="ADT" BookingTravelerRef="aWdqs8LESrurgGpndIctwA=="/>
+                </ns2:AirPricingInfo>
+                <ns2:AirPricingInfo Key="MHsXG78Q2BKA4eAdAAAAAA==" IncludesVAT="false" Refundable="true" LatestTicketingTime="2017-09-30T23:59:00.000+02:00" PricingMethod="Auto" TotalPrice="EUR133.81" BasePrice="USD119.06" ApproximateTotalPrice="EUR133.81" ApproximateBasePrice="EUR102.00" EquivalentBasePrice="EUR102.00" Taxes="EUR31.81" ApproximateTaxes="EUR31.81" ProviderCode="1G">
+                    <ns2:FareInfo Key="MHsXG78Q2BKA9eAdAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="ADT" Origin="DEN" Destination="SFO" EffectiveDate="2017-09-29T10:10:00.000+02:00" DepartureDate="2017-11-08" Amount="EUR51.00" NotValidBefore="2017-11-08" NotValidAfter="2017-11-08" TaxAmount="EUR15.91">
+                        <ns2:FareRuleKey FareInfoRef="MHsXG78Q2BKA9eAdAAAAAA==" ProviderCode="1G">6UUVoSldxwhxppKGqqcn9cbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7cH0ES5nMFFx/k6/AgZN/SrwiU/UnhVdm513MqkmC5DTM5nIrfyPpTm24ErYDaIm3fCHLo1pwCld+r/bRGkSYBehf6E18cRejETbLEjwJ+RtjqxSaLEtyONYO9FlwB7O8vqNbjwzJx7ogtvCItYneVBEGBAeHcczpsmmKpPghyhp8+L+p0xsjgGxJomFHX2IZOF/oTXxxF6Mf/9EWDAZDuNHZNO0IOqY3aUuA32Ku4i9RPnJ0Add3NevEe9U/59nTMh0pKIsbBXl1GGRnKRzlZM/XJICOIRe0l8XkOI3g4GoW+QKPIWaRvqly5qxZ3qLwOXLmrFneovA5cuasWd6i8D5W4bRuwrrPA=</ns2:FareRuleKey>
+                    </ns2:FareInfo>
+                    <ns2:FareInfo Key="MHsXG78Q2BKA+eAdAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="ADT" Origin="SFO" Destination="DEN" EffectiveDate="2017-09-29T10:10:00.000+02:00" DepartureDate="2017-12-09" Amount="EUR51.00" NotValidBefore="2017-12-09" NotValidAfter="2017-12-09" TaxAmount="EUR15.90">
+                        <ns2:FareRuleKey FareInfoRef="MHsXG78Q2BKA+eAdAAAAAA==" ProviderCode="1G">6UUVoSldxwhxppKGqqcn9cbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7eUHcuWlOZd4QH83pPt+kNqjg0M6xXdtgJ13MqkmC5DTM5nIrfyPpTmrjK4BKblJEyaKfjPBozXeur/bRGkSYBehf6E18cRejETbLEjwJ+RtjqxSaLEtyONYO9FlwB7O8vqNbjwzJx7ogtvCItYneVBzBQLbPzweKAmmKpPghyhp8+L+p0xsjgGxJomFHX2IZOF/oTXxxF6Mf/9EWDAZDuNHZNO0IOqY3aUuA32Ku4i9RPnJ0Add3NevEe9U/59nTMh0pKIsbBXl1GGRnKRzlZM/XJICOIRe0l8XkOI3g4GoW+QKPIWaRvqly5qxZ3qLwOXLmrFneovA5cuasWd6i8D5W4bRuwrrPA=</ns2:FareRuleKey>
+                    </ns2:FareInfo>
+                    <ns2:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKA9eAdAAAAAA==" SegmentRef="MHsXG78Q2BKAgeAdAAAAAA==" HostTokenRef="MHsXG78Q2BKAneAdAAAAAA=="/>
+                    <ns2:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKA+eAdAAAAAA==" SegmentRef="MHsXG78Q2BKAieAdAAAAAA==" HostTokenRef="MHsXG78Q2BKAoeAdAAAAAA=="/>
+                    <ns2:TaxInfo Key="MHsXG78Q2BKA5eAdAAAAAA==" Category="AY" Amount="EUR9.52"/>
+                    <ns2:TaxInfo Key="MHsXG78Q2BKA6eAdAAAAAA==" Category="US" Amount="EUR7.65"/>
+                    <ns2:TaxInfo Key="MHsXG78Q2BKA7eAdAAAAAA==" Category="XF" Amount="EUR7.66"/>
+                    <ns2:TaxInfo Key="MHsXG78Q2BKA8eAdAAAAAA==" Category="ZP" Amount="EUR6.98"/>
+                    <ns2:PassengerType Code="CNN" Age="2" BookingTravelerRef="jBdP8StZRPC0kf6RC2VWgQ=="/>
+                </ns2:AirPricingInfo>
+                <ns2:AirPricingInfo Key="MHsXG78Q2BKABfAdAAAAAA==" IncludesVAT="false" Refundable="true" LatestTicketingTime="2017-09-30T23:59:00.000+02:00" PricingMethod="Auto" TotalPrice="EUR133.81" BasePrice="USD119.06" ApproximateTotalPrice="EUR133.81" ApproximateBasePrice="EUR102.00" EquivalentBasePrice="EUR102.00" Taxes="EUR31.81" ApproximateTaxes="EUR31.81" ProviderCode="1G">
+                    <ns2:FareInfo Key="MHsXG78Q2BKAGfAdAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="ADT" Origin="DEN" Destination="SFO" EffectiveDate="2017-09-29T10:10:00.000+02:00" DepartureDate="2017-11-08" Amount="EUR51.00" NotValidBefore="2017-11-08" NotValidAfter="2017-11-08" TaxAmount="EUR15.91">
+                        <ns2:FareRuleKey FareInfoRef="MHsXG78Q2BKAGfAdAAAAAA==" ProviderCode="1G">6UUVoSldxwhxppKGqqcn9cbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7cH0ES5nMFFx/k6/AgZN/SrwiU/UnhVdm513MqkmC5DTM5nIrfyPpTm24ErYDaIm3fCHLo1pwCld+r/bRGkSYBehf6E18cRejExEdztRzIN6zqxSaLEtyONYO9FlwB7O8vqNbjwzJx7ogtvCItYneVBEGBAeHcczpsmmKpPghyhp48xmhVim9ONxJomFHX2IZOF/oTXxxF6Mf/9EWDAZDuNHZNO0IOqY3aUuA32Ku4i9RPnJ0Add3NevEe9U/59nTMh0pKIsbBXl1GGRnKRzlZM/XJICOIRe0l8XkOI3g4GoW+QKPIWaRvqly5qxZ3qLwOXLmrFneovA5cuasWd6i8D5W4bRuwrrPA=</ns2:FareRuleKey>
+                    </ns2:FareInfo>
+                    <ns2:FareInfo Key="MHsXG78Q2BKAHfAdAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="ADT" Origin="SFO" Destination="DEN" EffectiveDate="2017-09-29T10:10:00.000+02:00" DepartureDate="2017-12-09" Amount="EUR51.00" NotValidBefore="2017-12-09" NotValidAfter="2017-12-09" TaxAmount="EUR15.90">
+                        <ns2:FareRuleKey FareInfoRef="MHsXG78Q2BKAHfAdAAAAAA==" ProviderCode="1G">6UUVoSldxwhxppKGqqcn9cbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7eUHcuWlOZd4QH83pPt+kNqjg0M6xXdtgJ13MqkmC5DTM5nIrfyPpTmrjK4BKblJEyaKfjPBozXeur/bRGkSYBehf6E18cRejExEdztRzIN6zqxSaLEtyONYO9FlwB7O8vqNbjwzJx7ogtvCItYneVBzBQLbPzweKAmmKpPghyhp48xmhVim9ONxJomFHX2IZOF/oTXxxF6Mf/9EWDAZDuNHZNO0IOqY3aUuA32Ku4i9RPnJ0Add3NevEe9U/59nTMh0pKIsbBXl1GGRnKRzlZM/XJICOIRe0l8XkOI3g4GoW+QKPIWaRvqly5qxZ3qLwOXLmrFneovA5cuasWd6i8D5W4bRuwrrPA=</ns2:FareRuleKey>
+                    </ns2:FareInfo>
+                    <ns2:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKAGfAdAAAAAA==" SegmentRef="MHsXG78Q2BKAgeAdAAAAAA==" HostTokenRef="MHsXG78Q2BKApeAdAAAAAA=="/>
+                    <ns2:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKAHfAdAAAAAA==" SegmentRef="MHsXG78Q2BKAieAdAAAAAA==" HostTokenRef="MHsXG78Q2BKAqeAdAAAAAA=="/>
+                    <ns2:TaxInfo Key="MHsXG78Q2BKACfAdAAAAAA==" Category="AY" Amount="EUR9.52"/>
+                    <ns2:TaxInfo Key="MHsXG78Q2BKADfAdAAAAAA==" Category="US" Amount="EUR7.65"/>
+                    <ns2:TaxInfo Key="MHsXG78Q2BKAEfAdAAAAAA==" Category="XF" Amount="EUR7.66"/>
+                    <ns2:TaxInfo Key="MHsXG78Q2BKAFfAdAAAAAA==" Category="ZP" Amount="EUR6.98"/>
+                    <ns2:PassengerType Code="CNN" Age="2" BookingTravelerRef="xXvLu6eAQJOTtsyT1LEudg=="/>
+                </ns2:AirPricingInfo>
+                <ns2:AirPricingInfo Key="MHsXG78Q2BKAKfAdAAAAAA==" IncludesVAT="false" Refundable="true" LatestTicketingTime="2017-09-30T23:59:00.000+02:00" PricingMethod="Auto" TotalPrice="EUR0.00" BasePrice="USD0.00" ApproximateTotalPrice="EUR0.00" ApproximateBasePrice="EUR0.00" EquivalentBasePrice="EUR0.00" Taxes="EUR0.00" ApproximateTaxes="EUR0.00" ProviderCode="1G">
+                    <ns2:FareInfo Key="MHsXG78Q2BKALfAdAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="INF" Origin="DEN" Destination="SFO" EffectiveDate="2017-09-29T10:10:00.000+02:00" DepartureDate="2017-11-08" Amount="EUR0.00" NotValidAfter="2018-04-06" TaxAmount="EUR0.00">
+                        <ns2:FareRuleKey FareInfoRef="MHsXG78Q2BKALfAdAAAAAA==" ProviderCode="1G">6UUVoSldxwhxppKGqqcn9cbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7cH0ES5nMFFx6SYpb+ZZTFQkeqLqw6QHQ9k2Z/7pyoBqKM7JHVLrevT1k8A9CC1AjRi4BZ9wfbD3er/bRGkSYBeVgwkzPzxRwl0yW3p+wEZbkSXyVUQo7izjDC3rTjJ9BRDxXO2ZkIT/oMN1QPqv5KjvdbUEPYsX4FUSOvkja4E9ntqCgdkj0c/IEEkbXD8WS0mcl4dZPSK3RMmw1DiH0K7hf6E18cRejGWQD0tmIKUMo2lvt/1mfAD5Pyzy0urUKCH6WhCcMUlLGtA+czAxiLh3m1+cnXKJufqjETVQv3jgPwBShF29N4Sv4Xvb2u1Qx+/he9va7VDH3C6Ft4pH9C6</ns2:FareRuleKey>
+                    </ns2:FareInfo>
+                    <ns2:FareInfo Key="MHsXG78Q2BKAMfAdAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="INF" Origin="SFO" Destination="DEN" EffectiveDate="2017-09-29T10:10:00.000+02:00" DepartureDate="2017-12-09" Amount="EUR0.00" NotValidAfter="2018-04-06" TaxAmount="EUR0.00">
+                        <ns2:FareRuleKey FareInfoRef="MHsXG78Q2BKAMfAdAAAAAA==" ProviderCode="1G">6UUVoSldxwhxppKGqqcn9cbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7eUHcuWlOZd4Zd5EoHPFrVlkeqLqw6QHQ9k2Z/7pyoBqKM7JHVLrevT3N6PxjRdO9di4BZ9wfbD3er/bRGkSYBeVgwkzPzxRwl0yW3p+wEZbkSXyVUQo7izjDC3rTjJ9BRDxXO2ZkIT/oMN1QPqv5KjFwXtcC0qj/FUSOvkja4E9ntqCgdkj0c/IEEkbXD8WS0mcl4dZPSK3RMmw1DiH0K7hf6E18cRejGWQD0tmIKUMo2lvt/1mfAD5Pyzy0urUKCH6WhCcMUlLGtA+czAxiLh3m1+cnXKJufqjETVQv3jgPwBShF29N4Sv4Xvb2u1Qx+/he9va7VDH3C6Ft4pH9C6</ns2:FareRuleKey>
+                    </ns2:FareInfo>
+                    <ns2:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKALfAdAAAAAA==" SegmentRef="MHsXG78Q2BKAgeAdAAAAAA==" HostTokenRef="MHsXG78Q2BKAreAdAAAAAA=="/>
+                    <ns2:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKAMfAdAAAAAA==" SegmentRef="MHsXG78Q2BKAieAdAAAAAA==" HostTokenRef="MHsXG78Q2BKAseAdAAAAAA=="/>
+                    <ns2:PassengerType Code="INF" Age="0" BookingTravelerRef="QI9V5FLfRxaUdSi2Jads5A=="/>
+                </ns2:AirPricingInfo>
+                <ns2:AirPricingInfo Key="MHsXG78Q2BKAPfAdAAAAAA==" IncludesVAT="false" Refundable="true" LatestTicketingTime="2017-09-30T23:59:00.000+02:00" PricingMethod="Auto" TotalPrice="EUR0.00" BasePrice="USD0.00" ApproximateTotalPrice="EUR0.00" ApproximateBasePrice="EUR0.00" EquivalentBasePrice="EUR0.00" Taxes="EUR0.00" ApproximateTaxes="EUR0.00" ProviderCode="1G">
+                    <ns2:FareInfo Key="MHsXG78Q2BKAQfAdAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="INF" Origin="DEN" Destination="SFO" EffectiveDate="2017-09-29T10:10:00.000+02:00" DepartureDate="2017-11-08" Amount="EUR0.00" NotValidAfter="2018-04-06" TaxAmount="EUR0.00">
+                        <ns2:FareRuleKey FareInfoRef="MHsXG78Q2BKAQfAdAAAAAA==" ProviderCode="1G">6UUVoSldxwhxppKGqqcn9cbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7cH0ES5nMFFx6SYpb+ZZTFQkeqLqw6QHQ9k2Z/7pyoBqKM7JHVLrevT1k8A9CC1AjRi4BZ9wfbD3er/bRGkSYBeuUPN8eQSAhJ0yW3p+wEZbkSXyVUQo7izjDC3rTjJ9BRDxXO2ZkIT/oMN1QPqv5KjvdbUEPYsX4EhTBDdm/DI03tqCgdkj0c/IEEkbXD8WS0mcl4dZPSK3RMmw1DiH0K7hf6E18cRejGWQD0tmIKUMo2lvt/1mfAD5Pyzy0urUKCH6WhCcMUlLGtA+czAxiLh3m1+cnXKJufqjETVQv3jgPwBShF29N4Sv4Xvb2u1Qx+/he9va7VDH3C6Ft4pH9C6</ns2:FareRuleKey>
+                    </ns2:FareInfo>
+                    <ns2:FareInfo Key="MHsXG78Q2BKARfAdAAAAAA==" FareBasis="NVVXVN5" PassengerTypeCode="INF" Origin="SFO" Destination="DEN" EffectiveDate="2017-09-29T10:10:00.000+02:00" DepartureDate="2017-12-09" Amount="EUR0.00" NotValidAfter="2018-04-06" TaxAmount="EUR0.00">
+                        <ns2:FareRuleKey FareInfoRef="MHsXG78Q2BKARfAdAAAAAA==" ProviderCode="1G">6UUVoSldxwhxppKGqqcn9cbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzXH4lGUXsScO422wYI1U7eUHcuWlOZd4Zd5EoHPFrVlkeqLqw6QHQ9k2Z/7pyoBqKM7JHVLrevT3N6PxjRdO9di4BZ9wfbD3er/bRGkSYBeuUPN8eQSAhJ0yW3p+wEZbkSXyVUQo7izjDC3rTjJ9BRDxXO2ZkIT/oMN1QPqv5KjFwXtcC0qj/EhTBDdm/DI03tqCgdkj0c/IEEkbXD8WS0mcl4dZPSK3RMmw1DiH0K7hf6E18cRejGWQD0tmIKUMo2lvt/1mfAD5Pyzy0urUKCH6WhCcMUlLGtA+czAxiLh3m1+cnXKJufqjETVQv3jgPwBShF29N4Sv4Xvb2u1Qx+/he9va7VDH3C6Ft4pH9C6</ns2:FareRuleKey>
+                    </ns2:FareInfo>
+                    <ns2:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKAQfAdAAAAAA==" SegmentRef="MHsXG78Q2BKAgeAdAAAAAA==" HostTokenRef="MHsXG78Q2BKAteAdAAAAAA=="/>
+                    <ns2:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="MHsXG78Q2BKARfAdAAAAAA==" SegmentRef="MHsXG78Q2BKAieAdAAAAAA==" HostTokenRef="MHsXG78Q2BKAueAdAAAAAA=="/>
+                    <ns2:PassengerType Code="INF" Age="0" BookingTravelerRef="34h0mOFrR2G1UafkhWPfaA=="/>
+                </ns2:AirPricingInfo>
+                <HostToken Key="MHsXG78Q2BKAleAdAAAAAA==">GFB10101ADT00 01NVVXVN5 010001#GFB200010101NADTV30005V6200100003998W#</HostToken>
+                <HostToken Key="MHsXG78Q2BKAmeAdAAAAAA==">GFB10101ADT00 02NVVXVN5 010002#GFB200010102NADTV30005V6200100003998W#</HostToken>
+                <HostToken Key="MHsXG78Q2BKAneAdAAAAAA==">GFB10202CNN00 01NVVXVN5 010001#GFB200020201NADTV30005V6200100003998W#</HostToken>
+                <HostToken Key="MHsXG78Q2BKAoeAdAAAAAA==">GFB10202CNN00 02NVVXVN5 010002#GFB200020202NADTV30005V6200100003998W#</HostToken>
+                <HostToken Key="MHsXG78Q2BKApeAdAAAAAA==">GFB10303CNN00 01NVVXVN5 010001#GFB200030301NADTV30005V6200100003998W#</HostToken>
+                <HostToken Key="MHsXG78Q2BKAqeAdAAAAAA==">GFB10303CNN00 02NVVXVN5 010002#GFB200030302NADTV30005V6200100003998W#</HostToken>
+                <HostToken Key="MHsXG78Q2BKAreAdAAAAAA==">GFB10404INF00 01NVVXVN5 010001#GFB200040401NINFV30005V6200100003991000002188W#</HostToken>
+                <HostToken Key="MHsXG78Q2BKAseAdAAAAAA==">GFB10404INF00 02NVVXVN5 010002#GFB200040402NINFV30005V6200100003991000002188W#</HostToken>
+                <HostToken Key="MHsXG78Q2BKAteAdAAAAAA==">GFB10505INF00 01NVVXVN5 010001#GFB200050501NINFV30005V6200100003991000002188W#</HostToken>
+                <HostToken Key="MHsXG78Q2BKAueAdAAAAAA==">GFB10505INF00 02NVVXVN5 010002#GFB200050502NINFV30005V6200100003991000002188W#</HostToken>
+            </ns2:AirPricingSolution>
+            <ActionStatus Type="ACTIVE" TicketDate="T*" ProviderCode="1G"/>
+            <Payment Key="1" Type="Itinerary" FormOfPaymentRef="1" Amount="500"/>
+        </ns3:AirCreateReservationReq>
+    </soap:Body>
+</soap:Envelope>

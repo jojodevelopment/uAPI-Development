@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://www.travelport.com/schema/common_v29_0" xmlns:util="http://www.travelport.com/schema/util_v29_0">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <util:ReferenceDataRetrieveReq TargetBranch="P7085271" TypeCode="Airport" LanguageCode="de">
+            <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+            <util:ReferenceDataSearchModifiers MaxResults="40" StartFromResult="0"/>
+        </util:ReferenceDataRetrieveReq>
+    </soapenv:Body>
+</soapenv:Envelope>

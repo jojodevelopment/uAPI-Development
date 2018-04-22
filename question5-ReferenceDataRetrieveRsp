@@ -1,0 +1,46 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP:Body>
+      <util:ReferenceDataRetrieveRsp TransactionId="EEEB560A0A07643B7AA7CD767F2C78F2" ResponseTime="44" MoreResults="true" xmlns:util="http://www.travelport.com/schema/util_v29_0">
+         <util:ReferenceDataItem Code="AAA" Name="Anaa Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAB" Name="Arrabury Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAC" Name="Al Arish International" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAD" Name="AAD" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAE" Name="Les Salines Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAF" Name="Apalachicola Municipal Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAG" Name="Avelino Vieira Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAH" Name="Aachen Merzbruck Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAI" Name="Arraias Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAJ" Name="Cayana Airstrip" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAK" Name="Aranuka Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAL" Name="Aalborg Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAM" Name="Mala Mala Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAN" Name="Al Ain Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAO" Name="Anaco Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAP" Name="Andrau Airpark Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAQ" Name="Anapa Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAR" Name="Tirstrup Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAS" Name="Apalapsili Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAT" Name="Altay Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAU" Name="Asau Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAV" Name="Alah Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAW" Name="Abbottabad Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAX" Name="Araxa Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAY" Name="Al Ghaydah Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="AAZ" Name="Quetzaltenango Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABA" Name="Abakan Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABB" Name="Asaba International Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABC" Name="Albacete Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABD" Name="Abadan Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABE" Name="Lehigh Valley Intl Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABF" Name="Abaiang Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABG" Name="Abingdon Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABH" Name="Alpha Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABI" Name="Abilene Municipal Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABJ" Name="Felix Houphouet Boigny Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABK" Name="Kabri Dar Airport" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABL" Name="Ambler Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABM" Name="Bamaga Arpt" Deprecated="false"/>
+         <util:ReferenceDataItem Code="ABN" Name="Albina Airport" Deprecated="false"/>
+      </util:ReferenceDataRetrieveRsp>
+   </SOAP:Body>
+</SOAP:Envelope>
